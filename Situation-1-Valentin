@@ -1,0 +1,26 @@
+1. Le problème
+À mon retour de vacances, j'ai constaté une panne sur mon PC fixe. Dans un premier temps, 
+il s'allumait par intermittence, puis s'éteignait tout seul au bout de quelques minutes. Finalement, 
+il est devenu totalement impossible de le rallumer.
+
+2. Le diagnostic et les choix
+Face à ces symptômes, j'ai formulé plusieurs hypothèses : 
+un problème de surchauffe, une défaillance de la RAM, une pile du BIOS déchargée, un défaut de la carte graphique,
+un problème d'alimentation ou une carte mère défectueuse.
+J'ai procédé par élimination. J'ai d'abord démonté et réinstallé ma carte graphique pour écarter l'hypothèse d'un mauvais contact, 
+mais cela n'a rien changé. Ensuite, sachant que l'alimentation est très souvent responsable de ce type de panne, 
+j'aurais normalement dû la tester en priorité. Cependant, en inspectant l'intérieur du boîtier de plus près, 
+j'ai senti une forte odeur de composant brûlé et j'ai repéré une trace noire fondue directement sur ma carte mère (une MSI B450 Tomahawk). 
+Ce constat visuel m'a prouvé que la carte mère avait "cramé", m'évitant ainsi d'avoir à tester l'alimentation ou les autres composants.
+
+3. Les précautions et l'intervention
+J'ai donc décidé d'acheter une nouvelle carte mère compatible (une MSI B550 Gaming Plus). 
+Avant de commencer le démontage, j'ai pris soin de débrancher complètement l'ordinateur du secteur et de toucher la partie métallique du boîtier pour me décharger de toute électricité statique. 
+Sachant que le problème venait de la carte mère, mes disques durs n'étaient pas touchés et mes données étaient donc en sécurité. 
+J'ai ensuite procédé au remplacement complet de la pièce.
+
+4. Le résultat et l'apprentissage
+Après avoir tout rebranché, le PC a démarré parfaitement et ne s'éteint plus de façon intempestive.
+Grâce à cette réparation, j'ai appris l'importance de l'inspection visuelle et de la méthode par élimination. 
+J'ai également retenu que pour une prochaine panne de ce type, si je ne vois aucune trace de brûlure évidente, 
+mon premier réflexe devra être de tester l'alimentation avec un multimètre ou un testeur avant d'acheter une nouvelle pièce coûteuse
