@@ -42,3 +42,34 @@ J'ai perdu deux jours à suspecter le câblage alors que les compteurs d'erreurs
 ---
 
 **Compétences mobilisées** : gérer le patrimoine informatique ; répondre aux incidents et aux demandes d'assistance.
+
+## SITUATION B
+
+## Contexte
+Intervention réalisée le 28 septembre 2026 au sein du bureau d'études.
+Matériel concerné : Station de travail Dell Precision 3630.
+
+## Problème initial
+Le poste de travail subissait des redémarrages inopinés (3 à 4 fois par jour) depuis une quinzaine de jours, entraînant la perte récurrente du travail en cours pour l'utilisateur.
+
+## Diagnostic et options écartées
+L'analyse de l'observateur d'événements a mis en évidence des erreurs critiques Kernel-Power 41. Deux hypothèses initiales ont été traitées et écartées :
+
+Instabilité logicielle : Option écartée car l'application complète des mises à jour Windows n'a pas modifié le comportement du poste.
+
+Défaillance de la mémoire vive (RAM) : Option écartée sur critère technique (un diagnostic MemTest86 exécuté sur une nuit complète a retourné 0 erreur).
+
+## Mesures de sécurité
+Avant l'ouverture du boîtier, le poste a été mis hors tension, le câble secteur débranché, et le bouton d'alimentation a été maintenu enfoncé pendant 10 secondes afin de décharger les condensateurs de la carte mère.
+
+## Intervention technique
+L'inspection visuelle a révélé une alimentation d'origine (350 W) saturée de poussière dont le ventilateur émettait un bruit anormal. Une mesure à la prise wattmétrique a indiqué une consommation de 310 W en pic de charge, laissant une marge de tolérance insuffisante. Le bloc a été remplacé par une alimentation neuve de 550 W, opération complétée par un dépoussiérage intégral du châssis.
+
+## Résultats
+Stabilité totale du système retrouvée : le monitoring confirme 0 redémarrage intempestif sur une période d'observation de 30 jours consécutifs.
+
+## Bilan personnel
+Validation d'un premier diagnostic matériel mené et résolu en autonomie. L'axe d'amélioration pour les prochaines interventions consistera à inclure la vérification des contraintes énergétiques (mesure wattmétrique) plus tôt dans l'arbre de diagnostic, immédiatement après l'identification d'une erreur d'alimentation dans les journaux système.
+
+
+
